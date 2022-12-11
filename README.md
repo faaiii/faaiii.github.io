@@ -1,1 +1,316 @@
 # faaiii.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topu Roy Antu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!----- Preloader ----->
+
+    <section id="loader">
+            <div class="one"></div>
+    </section>
+
+    <!----- Home ----->
+
+    <section id="home">
+        <nav>
+            <button id="open" onclick="openMenu()">☰</button>
+            <div class="conteiner">
+                <div class="logo">
+                    <img src="Logo.svg">
+                    <label>TOPU ROY</label></div>
+                
+                <div class="menu">
+                    <button id="close" onclick="closeMenu()">&times</button>
+                    <ul onclick="closeMenu()">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <div class="content">
+                <div data-aos="fade-right" class="left">
+                    <h1><span>Hello I am</span><br>Topu Roy Antu</h1>
+                    <p>I am a Freelance Graphic Designer. I have more than 2 years of experience in the design industry.</p>
+                    <a href="https://www.behance.net/topuroyantu" target="blank" class="btn">PORTFOLIO</a>
+                    <a href="https://www.fiverr.com/topu_roy_antu?up_rollout=true" target="blank" class="btn-2">HIRE ME</a>
+                </div>
+    
+                <div class="right" data-aos="fade-left">
+                    <img src="Pic.svg" class="pic">
+                </div>
+                
+            </div>
+        </header>
+
+        <div class="line"></div>
+    </section>
+
+    <!----- About ----->
+
+    <section id="about">
+        <div class="conteiner">
+            <div class="left" data-aos="fade-right">
+                <img src="Pic-2.svg">
+            </div>
+
+            <div class="right" data-aos="fade-left">
+                <h1>About Me</h1>
+                <p>Hello There, <br> <br> I am  Topu Roy Antu. I am a Freelance
+                Graphic & UI/UX Designer. I have more than 2 years
+                of experience in the design  industry. I can never seem to stop creating anything.</p>
+                <a href="https://drive.google.com/file/d/1hBajAksFCIzJbZiSEbpxyUi8R3n-ypXJ/view?usp=sharing" target="blank" class="btn">DOWNLOAD CV <i class="fas fa-file-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!----- Skill ----->
+
+    <section id="skill">
+        <div class="heading" data-aos="fade-in">
+            <h1>Skills</h1>
+            <p>My Professional Skills</p>
+        </div>
+
+        <div class="my-skills">
+            <div class="Skill-Name" data-aos="fade-up">
+                <div class="head">
+                    <img src="code.svg" class="code">
+                    <h3>Front-End Development</h3>
+                </div>
+
+                <div class="skills html">
+                    <h4>HTML</h4>
+                    <p>85%</p>
+                </div>
+                <div class="bars">
+                    <div class="bar html"></div>
+                </div>
+
+                <div class="skills">
+                    <h4>CSS</h4>
+                    <p>70%</p>
+                </div>
+                <div class="bars">
+                    <div class="bar css"></div>
+                </div>
+
+                <div class="skills">
+                    <h4>JavaScript</h4>
+                    <p>50%</p>
+                </div>
+                <div class="bars">
+                    <div class="bar js"></div>
+                </div>
+            </div>
+
+            <div class="Skill-Name" data-aos="fade-up">
+                <div class="head">
+                    <img src="Design.svg" class="code">
+                    <h3>Graphic & UI/UX Design</h3>
+                </div>
+    
+                <div class="skills">
+                    <h4>Adobe Photoshop</h4>
+                    <p>90%</p>
+                </div>
+                <div class="bars">
+                    <div class="bar ps"></div>
+                </div>
+    
+                <div class="skills">
+                    <h4>Adobe Illustrator</h4>
+                    <p>80%</p>
+                </div>
+                <div class="bars">
+                    <div class="bar ai"></div>
+                </div>
+    
+                <div class="skills">
+                    <h4>Adobe XD</h4>
+                    <p>80%</p>
+                </div>
+                <div class="bars">
+                    <div class="bar xd"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!----- Works ----->
+    
+    <section id="works">
+
+        <div class="view" onclick="closeView()">
+            <img src="agency_website_design.png" id="view">
+            <button class="close" onclick="closeView()">&times</button>
+        </div>
+
+        <div class="heading" data-aos="fade-in">
+            <h1>My Works</h1>
+            <p>My Recent Design Works</p>
+        </div>
+
+        <div class="contenteiner">
+            
+            <div class="designs">
+                <div class="row" >
+                    <img src="Diamond-Teeth-Logo.jpg" onclick="view()">
+                    <img src="agency_website_design.png" onclick="viewTwo()">
+                    <img src="LOGO.png" onclick="viewThree()">
+                    
+                </div>
+                <div class="row">
+                    <img src="dribbble_post.png" onclick="viewfour()">
+                    <img src="music.jpg" onclick="viewfive()">
+                    <img src="dribbble___1.png" onclick="viewsix()">
+                    
+                </div>
+                <div class="row">
+                    <img src="Softcent.png" onclick="viewseven()">
+                    <img src="landing_page.jpg" onclick="vieweight()">
+                    <img src="w-Logo.jpg" onclick="viewnine()">
+                </div>
+            </div>
+
+            <a href="https://www.behance.net/topuroyantu" target="blank">See More</a>
+                
+        </div>
+    </section>
+
+    <!----- Service ----->
+
+    <section id="service">
+        <div class="heading" data-aos="fade-in">
+            <h1>Service</h1>
+            <p>The Services I Provide</p>
+        </div>
+
+        <div class="services" data-aos="fade-up">
+            <div class="box">
+                <img src="code.svg">
+                <h3>Web Design</h3>
+                <p>I will design your website <br>
+                with HTML , CSS & JavaScript <br>
+                from scratch</p>
+            </div>
+
+            <div class="box">
+                <img src="Design.svg">
+                <h3>Graphic Design</h3>
+                <p>I will design any kind of stuffs <br>
+                Including Social Media Post,<br>
+                Logo Design ETC.</p>
+            </div>
+
+            <div class="box">
+                <img src="UI UX.svg">
+                <h3>UI & UX Design</h3>
+                <p>I will design your website<br>
+                or Application User Interface<br>
+                in modern style</p>
+            </div>
+        </div>
+    </section>
+
+    <!----- Project ----->
+
+    <Section class="Project">
+        <div class="conteiner" data-aos="fade-up">
+            <div class="left" data-aos="fade-right">
+                <h2>Have a Project On Your Mind?</h2>
+                <p>I am here to help you on your project . Contact Me or Hire Me .</p> <br>
+                <a href="https://www.fiverr.com/topu_roy_antu?up_rollout=true" target="blank" class="hire">HIRE ME</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+            <div class="right">
+                <img src="Message.svg" data-aos="fade-left">
+            </div>
+        </div>
+    </Section>
+
+
+    <!----- Contact ----->
+
+    <section id="contact">
+        <div class="heading">
+            <h1>Contact Me</h1>
+        </div>
+
+        <form action="https://formcarry.com/s/CA9u5zX94L4" method="POST">
+
+            <div class="inputs" >
+                <div class="field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="firstName" placeholder="Your Name" required>
+                    <p id="user"></p>
+                </div>
+
+                <div class="field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <p id="email"></p>
+                </div>
+
+                <div class="field">
+                    <i class="fas fa-comment"></i>
+                    <textarea id="Message" name="anotherInput" placeholder="Message" required ></textarea>
+                    <p id="message"></p>
+                </div>
+
+                <div class="submit">
+                    <button type="submit">Send Message</button>
+                </div>
+                <input type="hidden" name="_next" value="https://topuroyantu.github.io/website/">
+            </div>
+            </div>
+        </form>
+    </section>
+
+    <!----- Footer ----->
+
+    <section class="footer">
+        <div class="social-media">
+            <a href="https://www.facebook.com/topu.royantu.12/" target="blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/topu_roy_antu/" target="blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://dribbble.com/topu-roy-antu" target="blank"><i class="fab fa-dribbble"></i></a>
+            <a href="https://github.com/topuroyantu" target="blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+
+
+    <!----- Link JavaScript ----->
+
+    <script src="script.js"></script>
+
+    <!----- Animate On Scroll ----->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 125,
+        duration: 950,
+      });
+    </script>
+</body>
+</html>
